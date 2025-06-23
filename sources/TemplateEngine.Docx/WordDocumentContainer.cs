@@ -119,7 +119,7 @@ namespace TemplateEngine.Docx
 				header.Save();
 			}
 
-			_wordDocument.Close();
+			_wordDocument.Save();
 		}
 
 		#region IDisposable
